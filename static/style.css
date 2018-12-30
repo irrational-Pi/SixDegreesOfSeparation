@@ -1,0 +1,91 @@
+*{
+
+}
+body{
+
+}
+/*---------------------------------------------- For Navigation --------------------------------------------------*/
+.head{
+  background: blue;
+  height: 50px;
+  margin: 0%;
+}
+.head .logo{
+  color:white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.logo img{
+	width: 9%;
+	height: 9%;
+	margin-right: -1.5%;
+}
+.menu li,a{
+  color:white;
+}
+/*---------------------------------------------- For Carousel --------------------------------------------------*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -20;
+}
+.slide h2,p{
+	color: black;
+}
+/*------------------------------------------------- For Form --------------------------------------------------*/
+.search{
+  width: 80%;
+  height: 50px;
+  margin: 10% 0% -13% 10%; 
+  z-index: 20;
+  position: relative;
+}
+.search input{
+  border: 2px groove grey;
+  border-radius: 50px;
+  margin: 0% 0% 0% 20%;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+.search .f_button{
+  border: 2px groove grey;
+  border-radius: 50px;
+  margin: 10% 0% 0% 40%;
+  width: 20%;
+}
+/*-------------------------------------------------- For About --------------------------------------------------*/
+.about{
+  width: 100%;
+  height: 600px;
+}
+/*-------------------------------------------------- For Services --------------------------------------------------*/
+.services{
+  width: 100%;
+  height: 600px;
+}
+/*-------------------------------------------------- For Contact --------------------------------------------------*/
+.contact{
+  width: 100%;
+  height: 600px;
+}
+/*----------------------------------------------------- For D3 --------------------------------------------------*/
+.link {
+  stroke: #ccc;
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+.d3{
+	width: 400px;
+	height: 400px;
+	margin-top: 12%;
+	z-index:-5;
+}
